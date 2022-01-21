@@ -1,5 +1,4 @@
-# aPlus-webtech-project
-Anonymous grading app for the web technologies university project
+# Anonymous Grading app
 
 Installation and usage:
 
