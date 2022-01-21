@@ -1,0 +1,53 @@
+#mainDivProjaf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    min-height: 50vh;
+    max-width: 80vh;
+    margin: auto;
+    font-size: 50 px;
+    background-color: rgba(248, 247, 242, 0.7);
+}
+
+.lProjectAddForm {
+    height: 30px;
+    justify-content: 'start';
+    align-items: 'start';
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+    clear: right;
+    display: block;
+}
+
+.cProjectAddForm {
+    justify-content: 'start';
+    align-items: 'start';
+    margin: 10px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: 0.3s all;
+    background-color: #f8f8f4;
+    float: right;
+    display: block;
+}
+
+#bAddProj {
+    display: inline;
+    justify-content: 'center';
+    align-items: 'center';
+    width: 180px;
+    margin: 10px;
+    margin-top: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f0f0e7;
+}
+
+#bAddProj:hover {
+    background-color: #17ee21;
+}

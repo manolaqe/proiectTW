@@ -1,0 +1,63 @@
+.interface {
+    background-color: rgba(247, 246, 243, 0.7);
+}
+
+.label {
+    height: 30px;
+    justify-content: 'start';
+    align-items: 'start';
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+    clear: right;
+    display: block;
+}
+
+.field {
+    justify-content: 'start';
+    align-items: 'start';
+    margin: 10px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: 0.3s all;
+    background-color: rgb(226, 228, 226);
+    float: right;
+    display: block;
+}
+
+#registerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    min-height: 100vh;
+    margin: auto;
+    font-size: 50 px;
+}
+
+#bAdd,
+#bCancel {
+    display: inline;
+    justify-content: 'center';
+    align-items: 'center';
+    width: 150px;
+    margin: 10px;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border: solid 3px rgb(76, 80, 80);
+    text-align: center;
+    font-size: 18px;
+    background-color: #cecec9;
+}
+
+#bAdd:hover,
+#bCancel:hover {
+    background-color: #17ee21;
+}
+
+select {
+    width: 220px;
+}

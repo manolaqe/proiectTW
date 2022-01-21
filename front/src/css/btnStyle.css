@@ -1,0 +1,16 @@
+.bCute {
+    display: inline;
+    justify-content: 'center';
+    align-items: 'center';
+    width: 180px;
+    margin: 10px;
+    margin-top: 5px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f8f8ee;
+}
+
+.bCute:hover {
+    background-color: #17ee21;
+}

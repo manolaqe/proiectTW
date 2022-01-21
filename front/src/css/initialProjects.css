@@ -1,0 +1,37 @@
+#bMP,
+#bGP,
+#bNP {
+    display: inline;
+    justify-content: 'center';
+    align-items: 'center';
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #fafaf6;
+}
+
+#butoaneProiecte {
+    text-align: center;
+    font-size: 18px;
+    background-color: #f7f7f3;
+}
+
+#bNP:hover,
+#bMP:hover,
+#bGP:hover {
+    background-color: #17ee21;
+}
+
+#treiButoaneDiv {
+    display: inline-block;
+    margin: 0px auto;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(161, 240, 236);
+}
